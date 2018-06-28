@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta name="wap-font-scale" content="no">
+	<script src="js/flexible.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/css22.css">
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<div class="search">
+				<input type="text" name="" placeholder="搜索商品/店铺">
+			</div>
+			<a href="#" class="login">登录</a>
+		</header>
+
+		<div id="banner" class="banner">
+			<div class="hd">
+				<ul>
+				</ul>
+			</div>
+			<div class="bd">
+				<ul>
+					<li ><a href="#"><img src="img/pic_banner1.jpg"></a></li>
+					<li ><a href="#"><img src="img/pic_banner1.jpg"></a></li>
+					<li ><a href="#"><img src="img/pic_banner2.jpg"></a></li>
+					<li ><a href="#"><img src="img/pic_banner2.jpg"></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<menu>
+			<ul class="menu-list">
+				<li>
+					<a href="#">
+						<img src="img/56f8fbe5543e5_17.jpg">
+						<p>今日特惠</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/56f8fbe5543e5_18.jpg">
+						<p>全球购</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/56f8fbe5543e5_19.jpg">
+						<p>充值中心</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/56f8fbe5543e5_03.jpg">
+						<p>我的积分</p>
+					</a>
+				</li>
+			</ul>
+			<ul class="menu-list">
+				<li>
+					<a href="#">
+						<img src="img/56f8fbe5543e5_17.jpg">
+						<p>今日特惠</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/56f8fbe5543e5_18.jpg">
+						<p>全球购</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/56f8fbe5543e5_19.jpg">
+						<p>充值中心</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/56f8fbe5543e5_03.jpg">
+						<p>我的积分</p>
+					</a>
+				</li>
+			</ul>
+		</menu>
+	</div>
+
+	<script src="js/TouchSlide.js"></script>
+	<script>
+		
+	(function(){
+
+		// 顶部的banner
+		TouchSlide({
+			slideCell:"#banner",
+			titCell:".hd ul", 
+			mainCell:".bd ul", 
+			effect:"leftLoop", 
+			autoPlay:true,
+			autoPage:true 
+		});
+
+
+	}());
+
+	</script>
+</body>
+</html>

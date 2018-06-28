@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta name="wap-font-scale" content="no">
+	<script src="js/flexible.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/goodsdetail.css">
+</head>
+<body>
+	<div id="leftTabBox">
+		<header class="hd">
+			<ul>
+				<li>图文详情</li>
+				<li>产品参数</li>
+				<li>热卖推荐</li>
+			</ul>
+		</header>
+
+		<main class="bd">
+			<div class="pannel pn-left">
+				<img src="img/icon_index1_013ji_02.png">
+			</div>
+			<div class="pannel pn-center">
+				<ul>
+					<li><span>袖长</span> <div>七分袖</div></li>
+					<li><span>销售渠道类型</span> <div>纯电商</div></li>
+					<li><span>货号</span> <div>154813</div></li>
+					<li><span>品牌</span> <div>皇宫婚纱</div></li>
+					<li><span>礼服裙摆</span> <div>拖尾</div></li>
+					<li><span>颜色分类</span> <div>白色</div></li>
+					<li><span>尺码</span> <div>S、M、L、XL、XXL，量身定做</div></li>
+					<li><span>上市年份</span> <div>2015年冬季</div></li>
+					<li><span>材质</span> <div>网纱</div></li>
+				</ul>
+			</div>
+			<div class="pannel pn-right">
+				<ul>
+					<li>
+						<img src="img/pic_like100.png">
+						<p>冬季新款敬酒服2015长袖新 娘结婚礼服红色长款修身...</p>
+						<span>￥229.9</span>
+					</li>
+
+					<li>
+						<img src="img/pic_like101_05.png">
+						<p>2015新款冬季宴会晚礼服长 款新娘结婚礼服年会礼服...</p>
+						<span>￥398.0</span>
+					</li>
+
+					<li>
+						<img src="img/pic_like1_09.png">
+						<p>冬款新娘敬酒服2015新款红 色长款结婚礼服鱼尾修身...</p>
+						<span>￥289.0</span>
+					</li>
+
+					<li>
+						<img src="img/pic_like102_10.png">
+						<p>2015新款冬季敬酒服长款粉 色V领新娘结婚礼服伴娘服..</p>
+						<span>￥399.9</span>
+					</li>
+
+					<li>
+						<img src="img/pic_like1_09.png">
+						<p>冬季新款敬酒服2015长袖新 娘结婚礼服红色长款修身...</p>
+						<span>￥355.0</span>
+					</li>
+
+					<li>
+						<img src="img/pic_like101_05.png">
+						<p>2015新款冬季宴会晚礼服长 款新娘结婚礼服年会礼服...</p>
+						<span>￥400.0</span>
+					</li>
+
+					<li>
+						<img src="img/pic_like100.png">
+						<p>冬款新娘敬酒服2015新款红 色长款结婚礼服鱼尾修身...</p>
+						<span>￥485.0</span>
+					</li>
+
+					<li>
+						<img src="img/pic_like102_10.png">
+						<p>冬季新款敬酒服2015长袖新 娘结婚礼服红色长款修身...</p>
+						<span>￥551.0</span>
+					</li>
+
+					<li>
+						<img src="img/pic_like1_09.png">
+						<p>冬季新款敬酒服2015长袖新 娘结婚礼服红色长款修身...</p>
+						<span>￥470.0</span>
+					</li>
+
+					<li>
+						<img src="img/pic_like101_05.png">
+						<p>冬款新娘敬酒服2015新款红 色长款结婚礼服鱼尾修身...</p>
+						<span>￥489.0</span>
+					</li>
+
+				</ul>
+			</div>
+		</main>
+	</div>
+	<script src="js/TouchSlide.js"></script>
+	<script>
+		TouchSlide({
+			slideCell:"#leftTabBox"
+		});
+
+		// 设置pannel的高度
+		!function(){
+			var header = document.querySelector("header");
+			var pannels = document.querySelectorAll(".pannel");
+			var head_h = header.offsetHeight;
+			var win_h = window.innerHeight;
+			var main_h = win_h - head_h *2;
+
+			pannels.forEach(function(e,i){
+				e.style.height = main_h + "px";
+			});
+		}();
+	</script>
+</body>
+</html>

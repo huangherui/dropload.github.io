@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="yes" name="apple-touch-fullscreen">
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta name="wap-font-scale" content="no">
+	<script src="js/flexible.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
+<body>
+
+
+
+
+
+
+<style type="text/css">
+	*{ padding:0; margin:0; list-style-type:none;}
+	body{font-family: "??";font-size: 12px;}
+	#t_con{ width:7.1875rem; line-height:0.9375rem; color:#00F; cursor:pointer; margin:0.3125rem auto 0 auto; border:1px #09C dashed; text-align:center;}
+	#t_area1{ /*width:268px; height:118px;overflow:hidden; border:2px #09C solid; background-color:#F1F9FC; margin:10px auto; padding-bottom:10px;display:none;*/ }
+	#t_area{ width:4.1875rem; height:1.8438rem;overflow:hidden; border:2px #09C solid; background-color:#F1F9FC; margin:10px auto; padding-bottom:10px;display:none; }
+	#t_area ul{ margin:10px 0;}
+	#t_area li{ width:60px; height:18px; float:left; display:inline; text-align:center; line-height:18px; margin:4px auto auto 5px; }
+	#t_area li a{ color:#fff; text-decoration:none;}
+	#t_area li a:hover,a:active{ color:#fff; text-decoration:underline;}
+</style>
+
+
+
+
+
+
+	<div id="t_con" onClick="showarea();clearTimeout(timer);return false;" onmouseout="timer=setTimeout('offarea()',3500);">
+	 选一个吧 </div>
+	<div id="t_area" onmouseover="showarea() ;clearTimeout(timer);return false;" onmouseout="offarea();clearTimeout(timer)">
+	    <ul>
+	        <li>四川</li>
+	       <li>上海</li>
+	        <li>北京</li>
+	       <li>香港</li>
+	       <li>广州</li>
+	       <li>四川</li>
+	       <li>上海</li>
+	        <li>北京</li>
+	       <li>香港</li>
+	       <li>广州</li>
+	       <li>四川</li>
+	       <li>上海</li>
+	       <li>北京</li>
+	       <li>香港</li>
+	    </ul>
+	    <!-- 新增的按钮-->
+	    <button onclick="comfirm()">确定</button><button onclick="offarea()">取消</button>
+	    </div>
+	<!-- 新增的隐藏域，用来保存当前选择的城市-->
+	<input type="hidden" id="selected"/>
+
+
+
+
+
+
+	<script type="text/javascript">
+		function showarea(){
+		    var con = document.getElementById("t_area");
+		    var arealist = con.getElementsByTagName("li");
+		    var g = document.getElementById("t_con");
+		    var val2 = "seeeeeee";
+		    con.style.display = "block";
+		    for (var i=0;i<arealist.length;i++){
+		    arealist[i].onmouseover = function(){this.style.backgroundColor = "red"}
+		    arealist[i].onmouseout = function(){this.style.backgroundColor = "#F1F9FC"}
+		    arealist[i].onclick = function(){
+		             //g.innerHTML = this.innerHTML ;
+		        //document.getElementById("textnew").innerHTML=g.innerHTML;//赋值给下面一个form的值
+		    //document.getElementById("ttt").value  = document.getElementById("t_con").innerHTML;      //赋值给下面一个form的值
+		document.getElementById("selected").value=this.innerHTML ;
+		//con.style.display = "none";
+		            }
+		        }
+		                
+		    }
+		function offarea(){      //dissappeared when mouse move out this div
+		    var con = document.getElementById("t_area");
+		    con.style.display = "none";
+		    }
+		var timer;
+		//新增的方法
+		function comfirm(){
+		    var g = document.getElementById("t_con");
+		    g.innerHTML = document.getElementById("selected").value;
+		    offarea();
+		}
+</script>
+
+</body>
+</html>

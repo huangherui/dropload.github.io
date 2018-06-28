@@ -1,0 +1,254 @@
+
+header{
+	height:1.25rem;
+	width:100%;
+	border-bottom:1px solid #eee;
+	padding:0 3%;
+	position:fixed;
+	top:0;
+	left:0;
+	line-height:1.25rem;
+	display:flex;
+	-webkit-display:flex;
+	background:#fff;
+	z-index:9999;
+}
+
+header a{
+	color:#333;
+	font-size:0.4688rem;
+}
+
+header h3{
+	font-size:0.4375rem;
+	flex:1;
+	text-align:center;
+}
+
+.top-bacg1{
+	height:0.1875rem;
+	background:#f7f7f7;
+	border-bottom:1px solid #eee;
+	margin-top:1.25rem;	
+}
+
+.top-bacg{
+	height:0.1875rem;
+	background:#f7f7f7;
+	border-bottom:1px solid #eee;
+}
+
+.dreesi{
+	padding:0 3%;
+	/*height:0.8594rem;*/
+	border-bottom:1px solid #eee;
+	line-height:0.8594rem;
+}
+
+.btn{
+	background:url("../img/icon-backg_03.png") 0 0 no-repeat;
+	width:0.375rem;
+	height:0.375rem;
+	background-size:100%;
+	float:left;
+	margin-top:0.2344rem;
+	margin-right:0.2188rem;
+}
+
+.dreesi img{
+	width:0.7031rem;
+	height:0.375rem;
+	float:right;
+	margin-top:0.25rem;
+}
+
+.korents{
+	width:94%;
+	height:2.1562rem;
+	border-bottom:1px solid #eee;
+	padding:0 3%;
+}
+
+.korents .img-tour{
+	width:2.4531rem;
+	height:2.1562rem;
+	float:left;
+}
+
+.korents .img-tour .btn1{
+	background:url("../img/icon-backg_03.png") 0 0 no-repeat;
+	width:0.375rem;
+	height:0.375rem;
+	background-size:100%;
+	float:left;
+	margin-top:0.9062rem;
+	margin-right:0.3125rem;
+}
+
+.korents .img-tour img{
+	width:1.5625rem;
+	height:1.5625rem;
+	margin-top:0.3125rem;
+	float:left;
+}
+
+.korean{
+	width:5.5469rem;
+	height:2.1562rem;
+	float:left;
+}
+
+.korean p{
+	margin-bottom:0.1562rem;
+	margin-top:0.3125rem;
+}
+
+.korean em{
+	margin-bottom:0.0938rem;
+	display:inline-block;
+}
+
+.korean span{
+	width:0.5781rem;
+	height:0.5781rem;
+	background:#f7f7f7;
+	display:inline-block;
+	line-height:0.5781rem;
+	text-align:center;
+	margin-left:0.0312rem;
+	margin-right:0.0312rem;
+}
+
+.korean small{
+	height:0.5781rem;
+	width:0.7812rem;
+	display:inline-block;
+	background:#f7f7f7;
+	line-height:0.5781rem;
+	text-align:center;
+}
+
+.korean span.add{
+	color:red;
+}
+
+.variab{
+	width:1.0938rem;
+	height:2.1562rem;
+	float:right;
+}
+
+.variab s{
+	margin-top:0.3125rem;
+	float:right;
+}
+
+.variab span{
+	margin-top:0.1562rem;
+	float:right;
+	color:red;
+	font-size:0.3125rem;
+}
+
+.variab .icon-indbacg{
+	background:url("../img/icon-inbacg_03.png") 0 0 no-repeat;
+	width:0.3594rem;
+	height:0.375rem;
+	background-size:100%;
+	float:right;
+	margin-top:0.2031rem;
+}
+
+.checkall{
+	padding:0 3%;
+	height:1.0938rem;
+	border-bottom:1px solid #eee;
+	line-height:1.0938rem;
+	margin-bottom:1.25rem;
+	position:relative;
+}
+
+.checkall .btn{
+	width:0.375rem;
+	height:0.375rem;
+	background:url("../img/icon-backg_03.png") 0 0 no-repeat;
+	background-size:100%;
+	float:left;
+	margin-top:0.3125rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+	margin-right:0.2188rem;
+}
+
+.checkall span{
+	color:#a0a0a0;
+	font-size:0.375rem;
+}
+
+.checkall small{
+	color:#ff2150;
+	font-size:0.2812rem;
+	margin-left:0.3125rem;
+}
+
+.checkall i{
+	color:#ff3f65;
+	font-size:0.375rem;
+	font-weight:bold;
+}
+
+.checkall em{
+	color:#c7c7c7;
+	margin-left:0.3438rem;
+}
+
+.checkall button{
+	height:1.0938rem;
+	width:2.3438rem;
+	background:#ff2150;
+	color:#fff;
+	border:none;
+	outline:none;
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+
+footer{
+	width:100%;
+	height:1.25rem;
+	background: #fff;
+	position:fixed;
+	left: 0;
+	bottom:0;
+	border-top:1px solid #eee;
+}
+
+footer a{
+	display: block;
+	float: left;
+	width:25%;
+	height: 100%;
+	font-size: 0.2812rem;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top:0.8125rem;
+}
+
+footer a:nth-child(1){
+	background: url("../img/icon-index00020_07.png") center 0.2188rem no-repeat;
+	background-size: 0.5781rem;
+}
+
+footer a:nth-child(2){
+	background: url("../img/icon_found.png") center 0.2188rem no-repeat;
+	background-size: 0.5781rem;
+}
+
+footer a:nth-child(3){
+	background: url("../img/icon-index3333_03.png") center 0.2188rem no-repeat;
+	background-size: 0.5781rem;
+}
+
+footer a:nth-child(4){
+	background: url("../img/icon_personal.png") center 0.2188rem no-repeat;
+	background-size: 0.5781rem;
+}

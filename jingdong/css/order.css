@@ -1,0 +1,281 @@
+html,body{
+	background:#f7f7f7;
+}
+
+header{
+	width:94%;
+	height:1.25rem;
+	border-bottom:1px solid #eee;
+	line-height:1.25rem;
+	-webkit-display:flex;
+	display:flex;
+	line-height:1.25rem;
+	padding:0 3%;
+}
+
+header a{
+	font-size:0.4688rem;
+	color:#333;
+	font-weight:bold;
+}
+
+header h2{
+	flex:1;
+	text-align:center;
+}
+
+.consignee{
+	height:1.7969rem;
+	border-bottom:1px solid #eee;
+	position:relative;
+}
+
+.consignee .consig span,
+.consignee .consig small,
+.consignee .consig em{
+	color:#333;
+	font-size:0.375rem;
+	height:0.9219rem;
+	line-height:0.9219rem;
+}
+
+.consignee .consig em{
+	padding-right:0.7812rem;
+}
+
+.consignee .consig{
+	float:left;	
+	padding:0 3%;
+}
+
+.consignee a{
+	color:#999;
+	font-size:0.4688rem;
+	font-weight:bold;
+	position:absolute;
+	right:3%;
+	top:0.5625rem;
+}
+
+.consignee p{
+	color:#a7a7a7;
+	font-size:0.3125rem;
+	float:left;
+	padding:0 3%;
+}
+
+.consimg img{
+	width:100%;
+	height:0.0938rem;
+	margin-top:0.2812rem;
+	display:inline-block;
+}
+
+.navgation{
+	padding:0 3%;
+	height:1.0938rem;
+	border-bottom:1px solid #eee;
+	line-height:1.0938rem;
+	background:#fff;
+}
+
+.navgation .navga-lft img{
+	float:left;
+	width:0.625rem;
+	height:0.625rem;
+	margin-top:0.2344rem;
+	padding-right:0.3281rem;
+}
+
+.dress{
+	height:1.5625rem;
+	border-bottom:1px solid #eee;
+	padding:0 3%;
+	margin-top:0.2812rem;
+}
+
+.dress img{
+	width:0.875rem;
+	height:0.9375rem;
+	float:left;
+	padding-right:0.375rem;
+}
+
+.dress p{
+	color:#5d5d5d;
+	font-size:0.3125rem;
+	margin-bottom:0.1875rem;
+}
+
+.dress span{
+	color:#c6c6c6;
+	font-size:0.3125rem;
+}
+
+.dress small{
+	float:right;
+	font-size:0.3125rem;
+	color:#ff2150;
+}
+
+.dress i{
+	float:right;
+}
+
+.expres{
+	height:0.9375rem;
+	border-bottom:1px solid #eee;
+	line-height:0.9375rem;
+	padding:0 3%;
+	background:#fff;
+}
+
+.expres span{
+	color:#6e6e6e;
+	font-size:0.3438rem;
+	float:left;
+}
+
+.expres em{
+	color:#6e6e6e;
+	font-size:0.3438rem;
+	float:right;
+}
+
+.message{
+	height:0.9375rem;
+	border-bottom:1px solid #eee;
+	line-height:0.9375rem;
+	padding:0 3%;
+	background:#fff;
+}
+
+.message label{
+	color:#6e6e6e;
+	font-size:0.3438rem;
+}
+
+.message input{
+	border:none;
+	height:0.7812rem;
+	outline:none;
+}
+
+.anmountto{
+	height:0.9688rem;
+	border-bottom:1px solid #eee;
+	padding:0 3%;
+	line-height:0.9688rem;
+	background:#fff;
+}
+
+.anmountto span{
+	color:#333;
+	padding-left:4.6875rem;
+	font-size:0.375rem;
+}
+
+.anmountto small{
+	color:#333;
+	float:right;
+	font-size:0.375rem;
+}
+
+.anmountto i{
+	color:#ff2150;
+}
+
+.navigait{
+	height:0.9375rem;
+	border-bottom:1px solid #eee;
+	padding:0 3%;
+	line-height:0.9375rem;
+	background:#fff;
+}
+
+.navigait span{
+	color:#6e6e6e;
+	font-size:0.3438rem;
+}
+
+.navigait em{
+	color:#fff;
+	font-size:0.2812rem;
+	background:#ff2150;
+	border-radius:0.125rem;
+	padding:0.0781rem 0.125rem;
+	margin-left:0.1562rem;
+}
+
+.integral{
+	height:0.9375rem;
+	border-bottom:1px solid #eee;
+	padding:0 3%;
+	line-height:0.9375rem;
+	background:#fff;
+}
+
+.integral span{
+	color:#333;
+	font-size:0.3438rem;
+}
+
+.integral i{
+	font-size:0.3438rem;
+	color:#ff2150;
+	padding-left:0.3125rem;
+}
+
+.integral .yuan{
+	width:0.375rem;
+	height:0.375rem;
+	border:1px solid #9b9b9b;
+	border-radius:50%;
+	float:right;
+	margin-top:0.2656rem;
+}	
+
+.integral .active{
+	background:url("../img/icon-red_03.png") 0 0 no-repeat; 
+	width:0.375rem;
+	height:0.375rem;
+	float:right;
+	margin-top:0.2656rem;
+	background-size:100%;
+}
+
+.bassuntton{
+	font-weight:bold;
+	height:1.25rem;
+	line-height:1.25rem;
+	background:#fff;
+	position:fixed;
+	bottom:0;
+	width:100%;
+}
+
+.bassuntton span{
+	font-size:0.2812rem;
+	color:#ff2150;
+	float:left;
+	padding-left:3%;
+}
+
+.bassuntton small{
+	font-size:0.375rem;
+	color:#ff2150;
+	float:left;
+	padding-left:3%;
+}	
+.bassuntton button{
+	position:fixed;
+	bottom:0;
+	right:0;
+	width:2.5rem;
+	height:1.25rem;	
+	background:#ff2150;
+	border:#ff2150;
+	font-size:0.375rem;
+	color:#fff;
+	outline:none;
+}
